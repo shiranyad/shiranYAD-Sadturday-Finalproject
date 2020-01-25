@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 5px;
+    color: whitesmoke;
+}
+
+h2 {
+    color: whitesmoke;
+    display: inline;
+}
+
+#game-over {
+    text-align: center;
+    color: red;
+    visibility: hidden;
+}
+
+#victory {
+    color: greenyellow;
+    visibility: hidden;
+}
+
+button {
+    background: darkorchid;
+    outline: 0;
+    border: 1px solid pink;
+    border-radius: 2px;
+    padding: 2px 6px;
+}
+
+#minesweeper {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1513366208864-87536b8bd7b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+    border: 5px solid gray;
+    width: 300px;
+    height: 500px;
+    margin: 20px auto;
+}
+
+#minesweeper table {
+    border-spacing: 0;
+    margin: 20px auto;
+}
+
+#minesweeper table tr td {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    background-color: lightgrey;
+    border: 1px solid gray;
+}
+
+#minesweeper table tr td.shown {
+    background-color: #bbbbbb;
+}
